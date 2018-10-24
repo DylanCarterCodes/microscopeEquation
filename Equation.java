@@ -24,7 +24,8 @@ public class microsope1 {
 		double finalChange = .000001; //what last window will change by
 		double zoomNum = 20; //what number we want the limit of
 		
-/*  End user no touch, this shouldn't change except for line 74, the equation. Change that depending on
+/*  End user no touch, nothing after this this shouldn't change except for line 74, 
+ *  the equation. Change that depending on
  *  what equation you want the limit of
  *  Nothing from this point on should be touched (other than line 74) or the program will be liable 
  *  to break. If this happens please restore the original code before asking me about it.
