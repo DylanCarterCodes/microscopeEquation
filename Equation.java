@@ -58,9 +58,6 @@ coordinates[(int) (count - numPerWindow)][0]) + coordinates[count - 100][1];
 //the following lines give information for the user. \n causes a line break 
 				System.out.println("\nSlope at " +zoomNum + " is: " + slope);
 				System.out.println("Limit at " + zoomNum + " is: " + microscopeEquation);
-				System.out.println("windowcurrent is: " + windowCurrent);
-				System.out.println("windowcurrent * numPerWindow is: " + windowCurrent * numPerWindow);
-				System.out.println("Count is : " + count);
 				System.out.println("New zoom, the delta x is: " + currentChange + "\n");
 			}
 /*following if then says that if the number of data points exceeds the number we want, to stop running the
