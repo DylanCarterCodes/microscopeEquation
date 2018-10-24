@@ -66,8 +66,6 @@ coordinates[(int) (count - numPerWindow)][0]) + coordinates[count - 100][1];
 /*following if then says that if the number of data points exceeds the number we want, to stop running the
 *while loop.That's what the break keyword does, stops the while loop, the print lets the user know it does */
 			if(count > numPerWindow * windows ) {
-				System.out.println("Please disregard the last windowcurrent and zoom, as it refers\n"
-						+ "to data that will not be available to you, the user \n");
 				System.out.println("Zoomed in as far as user requested, ending program. \n"
 							+ "If you would like to zoom in more or try a different equation, \n"
 							+ "please change your console inputs or contact a programmer to assist you");
