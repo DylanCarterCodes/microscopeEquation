@@ -17,7 +17,7 @@ public class microsope1 {
 	public static void main(String[] args) {		
 		//things users change based off what they want the program to find
 		//Users are allowed to and encouraged to touch this, these determine the outputs!!!!!
-		double x = 0;
+		double x = 0; //starting value of the first window
 		double windows = 5; //windows, as in, number of changes from initial change to final change. Will zoom in number of window xs
 		double numPerWindow = 100; //how many data points per window
 		double initialChange = 1; // what first window will change by
